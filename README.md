@@ -16,7 +16,7 @@ Project Structure
 - functions.db: The SQLite database where the data is saved.
 
 Explanation of the project: 
-1. Data Loading
+1. Data Loading: 
 The data is loaded from the CSV files using the Pandas library. Three datasets are loaded: training data, test data, and ideal functions.
 
 2. Least-Squares Fitting: 
