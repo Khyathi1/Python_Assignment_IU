@@ -15,18 +15,18 @@ Project Structure
 - Ideal_Function.py: The main Python script that runs the entire process.
 - functions.db: The SQLite database where the data is saved.
 
-Explanation of the project:
+Explanation of the project: 
 1. Data Loading
 The data is loaded from the CSV files using the Pandas library. Three datasets are loaded: training data, test data, and ideal functions.
 
-2. Least-Squares Fitting
+2. Least-Squares Fitting: 
 The Least-Squares Method is used to compare each training dataset to the ideal functions. The function that minimizes the sum of squared differences is selected as the best fit for each training dataset.
 
-3. Test Data Mapping
+3. Test Data Mapping: 
 The test data points are mapped to the closest ideal function by comparing their y-values to the y-values of the ideal functions and calculating the deviation.
 
-4. Database Storage
+4. Database Storage: 
 The results (training data, ideal functions, and mapped test data) are saved in a SQLite database using the SQLAlchemy library.
 
-5. Visualization
+5. Visualization: 
 The data is visualized using Matplotlib, showing the training data, ideal functions, and test data.
